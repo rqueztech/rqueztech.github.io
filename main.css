@@ -5,6 +5,7 @@
 }
 
 p{
+	float: right;
 	color: teal;
 }
 
@@ -12,6 +13,7 @@ button{
 	color: black;
 	background-color: teal;
 	border-color: teal;
+	float: right;
 }
 
 button:hover{
