@@ -1,25 +1,19 @@
-.divouter{
+.divframe {
+	width: 80%;
 	margin: auto;
-	border-radius: 5px;
-	width: 80%
-}
-
-.divbutton{
-	text-align: left;
-	padding-bottom: 10px;
 }
 
 p{
-	float: right;
 	color: teal;
-	font-weight: bold;
-	text-align: left;
+	font-size: 24px;
+	display: inline;
 }
 
 button{
 	color: black;
 	background-color: teal;
 	border-color: teal;
+	margin-bottom: 10px;
 }
 
 button:hover{
