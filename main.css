@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-body{
-	background-color: black;
-	font-size: 90%;
-}
-
 .divframe {
 	width: 70%;
-=======
-.divouter{
->>>>>>> parent of cda7857... Major changes to page layout
 	margin: auto;
-	border-radius: 5px;
-	width: 80%
 }
 
 .divbutton{
@@ -19,16 +8,19 @@ body{
 	padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
+body{
+	background-color: black;
+	font-size: 90%;
+}
+
 h1{
 	color: teal;
-=======
+}
+
 p{
-	float: right;
+	display: inline;
 	color: teal;
 	font-weight: bold;
-	text-align: left;
->>>>>>> parent of cda7857... Major changes to page layout
 }
 
 button{
@@ -47,11 +39,12 @@ button:hover{
 img{
 	float: left;
 	padding-right: 20px;
-	width = 180px; 
+	width: 180px;
+	height: 240px;
 }
 
 p{
 	color: teal;
-	font-size: 12px;
+	font-size: 18px;
 	display: inline;
 }
