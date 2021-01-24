@@ -23,7 +23,11 @@ p{
 	font-weight: bold;
 }
 
-button{
+form{
+	display: inline;
+}
+
+.buttondecor{
 	color: black;
 	background-color: teal;
 	border-color: teal;
