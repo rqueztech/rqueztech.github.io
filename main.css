@@ -16,8 +16,6 @@ h1 {
 #divbutton {
 	text-align: left;
 	padding-bottom: 10px;
-	-webkit-appearance: none;
-	opacity: 1;
 }
 
 form {
@@ -34,6 +32,8 @@ p {
 	color: black;
 	background-color: teal;
 	border-color: teal;
+	-webkit-appearance: none;
+	opacity: 1;
 }
 
 .buttondecor:hover {
@@ -41,6 +41,8 @@ p {
 	background-color: gray;
 	border-color: gray;
 	cursor: pointer;
+	-webkit-appearance: none;
+	opacity: 1;
 }
 
 img {
