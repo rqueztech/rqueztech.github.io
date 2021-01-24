@@ -4,7 +4,7 @@ body {
 }
 
 
-.divframe {
+#divframe {
 	width: 70%;
 	margin: auto;
 }
@@ -13,7 +13,7 @@ h1 {
 	color: teal;
 }
 
-.divbutton {
+#divbutton {
 	text-align: left;
 	padding-bottom: 10px;
 }
