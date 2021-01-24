@@ -16,6 +16,8 @@ h1 {
 #divbutton {
 	text-align: left;
 	padding-bottom: 10px;
+	-webkit-appearance: none;
+	opacity: 1;
 }
 
 form {
