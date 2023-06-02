@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 15px;
+    background-color: #fcf6f5ff;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    border-bottom: 3px solid white;
+    padding-top: 30px;
+    min-height: 75px;
+}
+
+#aboutme {
+    display: flex;
+    background-color: #990011ff;
+    color: white;
+    min-height: 70px;
+    overflow: hidden;
+}
+
+#aboutme img {
+    width: 60%;
+    height: 60%;
+    padding: 1em;
+    margin: 0;
+}
+
+#aboutme p, ul{
+    background-color: black;
+    color: white;
+    flex: 1;
+    padding: 2%;
+}
+
+#aboutme .box1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 2%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#aboutme .box2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 2%;
+    width: 60%;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#certifications .box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 2%;
+    width: 40%;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+.toppage {
+    background-color: white;
+}
+
+.smallbutton {
+    color: black;
+    background-color: #990011ff;
+    padding: 3px;
+    border: solid 3px black;
+    font-weight: bold;
+}
+
+.smallbutton:hover {
+    color: #ffffff;
+    background-color: #990011ff;
+    padding: 3px;
+    border: solid 3px black;
+    font-weight: bold;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: black 3px solid; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #990011ff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+header #brand {
+    float: left;
+    color: white;
+}
+
+header #brand h1 {
+    margin: 0;
+}
+
+header a {
+    color: #990011ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+    font: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header li {
+    text-decoration: none;
+    font-size: 10%;
+    display: inline;
+}
+
+#showcase {
+    color: black;
+    font: bold;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 3px #ffffff;
+}
+
+#showcase p {
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    text-align: justify;
+    margin-right: 0;
+    padding: 2%;
+    font: bold;
+    font-family: sans-serif;
+    opacity: 80%;
+}
+
+#music {
+    background-color: #990011ff;
+    min-height: 200px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+*/
+#brand span f{
+    color: #990011ff;
+}
+
+/* 
+    Container class sets the general font layout for
+    everything on the webpage
+*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('images/mountainbackground.png') 0 no-repeat;
+    background-position: 0,0;
+    max-width: 100%;
+    background-position: center;
+}
+
+#subscribe {
+    min-height: 50px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#subscribe h3 {
+    font-size: 16px;
+    color: #990011ff;
+    display: inline;
+}
+
+#subscribe form {
+    margin-top: 15px;
+    float: right;
+}
+
+.button-1 {
+    background-color: #990011ff;
+    padding: 5px 5px;
+}
+
+.button-1:hover {
+    background-color: #ffffff;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+#certifications .box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 2%;
+    width: 30%;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#certifications .box button {
+    background-color: #990011ff;
+    color: #ffffff;
+}
+
+#certifications .box span {
+    font-weight: bold;
+    color: black;
+}
+
+#certifications .box a:hover {
+    background-color: #990011ff;
+    cursor:pointer;
+    color: white;
+}
+
+#certifications img {
+    width: 50%;
+}
+
+#certifications a {
+    text-decoration: none;
+    color: black;
+}
+
+#certifications a:hover {
+    text-decoration: none;
+    color: #990011ff;
+}
+
+footer {
+    background-color: black;
+    min-height: 60px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #990011ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
