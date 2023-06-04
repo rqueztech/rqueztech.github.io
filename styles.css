@@ -305,3 +305,18 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* Example */
+@media (max-width: 600px) {
+    #aboutme {
+      display: block;
+    }
+
+    body {
+        font: 15px;
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        font-family: Lato;
+    }
+  }
