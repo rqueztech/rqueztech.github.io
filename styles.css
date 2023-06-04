@@ -306,17 +306,42 @@ footer {
     background: #555;
 }
 
-/* Example */
+/* Styles for desktop */
+
+/* Your existing CSS code */
+
+/* Styles for mobile */
 @media (max-width: 600px) {
-    #aboutme {
-      display: block;
+    body {
+        font-size: 14px; /* Adjust the font size for better readability on small screens */
     }
 
-    body {
-        font: 15px;
-        background-color: blue;
-        margin: 0;
-        padding: 0;
-        font-family: Lato;
+    header {
+        padding-top: 20px; /* Reduce the padding to optimize space */
+        min-height: 60px; /* Reduce the height of the header for better visibility */
     }
-  }
+
+    #aboutme {
+        flex-direction: column; /* Stack the content vertically */
+        min-height: auto; /* Remove the minimum height to fit content */
+    }
+
+    #aboutme img {
+        width: 100%; /* Make the image occupy the full width */
+        height: auto; /* Allow the height to adjust proportionally */
+        padding: 0.5em; /* Reduce the padding for better spacing */
+    }
+
+    #aboutme .box1,
+    #aboutme .box2 {
+        width: 100%; /* Make the boxes occupy the full width */
+        padding: 20px; /* Increase the padding for better spacing */
+    }
+
+    #certifications .box {
+        width: 100%; /* Make the boxes occupy the full width */
+        padding: 20px; /* Increase the padding for better spacing */
+    }
+
+    /* Adjust other styles as needed for better mobile experience */
+}
