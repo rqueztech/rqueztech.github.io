@@ -29,3 +29,16 @@ footer {
     font-size: 50px;
     font-family: Lato;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
