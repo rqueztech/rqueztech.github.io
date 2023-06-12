@@ -20,6 +20,36 @@ function scrollFunction() {
     }
 }
 
+function clock() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    let amOrPm = "";
+
+    m = checkTime(m);
+    s = checkTime(s);
+
+    if(h < 12) {
+        amOrPm = "AM";
+    } else {
+        amOrPm = "PM";
+        h = h - 12;
+    }
+
+    document.getElementById("txt").innerHTML = h + ":" + m + ":" + s + " " + amOrPm;
+
+    setTimeout(clock, 1000);
+}
+
+function checkTime(i) {
+    if(i < 10) {
+        i = "0" + i;
+    }
+
+    return i;
+}
+
 window.addEventListener('DOMContentLoaded', function() {
     // Add smooth scrolling to all links
     const links = document.getElementsByTagName('a');
@@ -47,3 +77,5 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     } // Add this line to close the for loop    
 })
+
+clock();
